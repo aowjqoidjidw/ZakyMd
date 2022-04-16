@@ -1368,7 +1368,7 @@ break
             break
             case 'anime': case 'waifu': case 'husbu': case 'neko': case 'shinobu': case 'megumin': {
                 m.reply(mess.wait)
-                Zaky.sendMessage(m.chat, { image: { url: api('zenz', '/api/randomimage/anime/'+command, 'apikey') }, caption: `Download From ${text}` }, { quoted: m})
+                Zaky.sendMessage(m.chat, { image: { url: api('zenz', '/api/random/anime/'+command, 'apikey') }, caption: `Download From ${text}` }, { quoted: m})
             }
             break
 	    case 'couple': {
